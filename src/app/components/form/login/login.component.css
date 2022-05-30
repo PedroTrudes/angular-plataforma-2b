@@ -233,3 +233,41 @@
   }
 
 }
+
+@media (max-width: 500px){
+  .login--p{
+    font-size: 1.5em;
+    margin-bottom: 5px;
+
+  }
+  .container__login--logo img{
+    height: 50px;
+  }
+
+  .form__input--login{
+    margin-bottom: 15px;
+  }
+
+  .form__input--login input{
+    font-size: 1.0em;
+
+  }
+
+  .botao--login{
+    margin-top: 15px;
+    padding: 0px 15px;
+
+  }
+
+  .container__login--link--mobile{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+  }
+  .login--link{
+    margin-left: 0px;
+    width: 65%;
+    padding: 8px 15px;
+
+  }
+}
