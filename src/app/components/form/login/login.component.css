@@ -272,7 +272,7 @@
   }
 
   .container__login--link--mobile{
-    width: 80%;
+    width: 50%;
     display: flex;
     justify-content: center;
   }
