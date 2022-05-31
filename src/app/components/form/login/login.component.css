@@ -243,9 +243,21 @@
   .container__login--logo img{
     height: 50px;
   }
+  .container__login--form{
+    height: 65vh;
+    border-bottom-left-radius: 0px;
+  }
 
+  .container__login--formulario{
+    padding: 15px 0px;
+    border: 1px solid red;
+  }
+
+  .login--p{
+    margin-bottom: 45px;
+  }
   .form__input--login{
-    margin-bottom: 15px;
+    margin-bottom: 45px;
   }
 
   .form__input--login input{
@@ -269,5 +281,13 @@
     width: 65%;
     padding: 8px 15px;
 
+  }
+
+  .container__login--img img{
+    height: 130%;
+  }
+  .login--img--link{
+    top: 10%;
+    width: 50%;
   }
 }
