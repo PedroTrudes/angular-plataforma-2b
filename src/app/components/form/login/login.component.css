@@ -244,7 +244,8 @@
     height: 50px;
   }
   .container__login--form{
-    height: 65vh;
+    height: auto;
+
     border-bottom-left-radius: 0px;
   }
 
