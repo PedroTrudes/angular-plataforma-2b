@@ -1,1 +1,58 @@
-<p>cadastro works!</p>
+<div class="container__cadastro">
+  <div class="container__cadastro--img">
+    <img src="../../../../assets/login/login--descktop.jpeg" alt="" class="img--descktop">
+    <img src="../../../../assets/login/login--mobile.jpeg" alt="" class="img--mobile">
+  </div>
+  <!-- div do formulario a seguir -->
+  <div class="container__cadastro--formulario">
+      <div class="cadastro--logo">
+        <img src="../../../../assets/logos/2btrust-dark-logo.png" alt="Logo 2btrust">
+      </div>
+      <div class="cadastro--formulario">
+        <p>To invest, please create an account</p>
+
+        <form class="cadastro--form">
+          <div class="form__input--cadastro">
+            <input type="text" class="cadastro--input" required />
+            <label for="" class="cadastro--label">Login</label>
+          </div>
+          <div class="form__input--cadastro">
+            <input type="email" class="cadastro--input" required />
+            <label for="" class="cadastro--label">E-mail</label>
+          </div>
+          <div class="form__input--cadastro">
+            <input type="tel" class="cadastro--input" required />
+            <label for="" class="cadastro--label">Phone number (mobile preferred)</label>
+          </div>
+          <div class="form__input--cadastro">
+            <input type="password" class="cadastro--input" required />
+            <label for="" class="cadastro--label">Password</label>
+          </div>
+          <div class="form__input--cadastro--checkbox">
+            <input type="checkbox" name="" id="" required />
+            <label for="">I am an Accredited investor</label>
+          </div>
+          <div class="form__input--cadastro--checkbox">
+            <input type="checkbox" name="" id="" required />
+            <label for="">I am Not an Accredited investor</label>
+          </div>
+        </form>
+      </div>
+
+      <div class="cadastro__submit">
+        <button>Continuiar
+          <i class="material-icons"> north_east
+
+          </i>
+
+        </button>
+      </div>
+
+      <div class="container__voltar--login">
+        <a routerLink="/login">Login
+          <i class="material-icons"> north_east
+          </i>
+        </a>
+      </div>
+  </div>
+</div>
