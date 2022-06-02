@@ -171,7 +171,7 @@ margin-bottom: 45px;
     border-top-right-radius: 25px;
     border-bottom-left-radius: 0px;
     height: 60vh;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
   .cadastro--logo{
     margin-bottom: 0px;
