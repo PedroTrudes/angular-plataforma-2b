@@ -166,12 +166,13 @@ margin-bottom: 45px;
   }
   .container__cadastro--formulario{
     position: absolute;
-    top: 45%;
+    top: 40%;
     width: 100%;
     border-top-right-radius: 25px;
     border-bottom-left-radius: 0px;
     height: auto;
     flex-wrap: nowrap;
+    padding: 15px 0px;
   }
   .cadastro--logo{
     margin-bottom: 0px;
