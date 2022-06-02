@@ -170,11 +170,12 @@ margin-bottom: 45px;
     width: 100%;
     border-top-right-radius: 25px;
     border-bottom-left-radius: 0px;
-    height: 60vh;
+    height: auto;
     flex-wrap: nowrap;
   }
   .cadastro--logo{
     margin-bottom: 0px;
+    margin-top: 25px;
   }
 
   .container__voltar--login{
