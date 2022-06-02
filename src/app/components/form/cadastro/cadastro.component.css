@@ -144,3 +144,34 @@ margin-bottom: 45px;
   border-radius: 50px;
   color: rgb(155, 155, 155);
 }
+
+
+@media (max-width: 820px) {
+  .container__cadastro{
+    flex-direction: column;
+
+
+  }
+  .container__cadastro--img{
+    width: 100%;
+  }
+
+  .img--descktop{
+    display: none;
+  }
+  .img--mobile{
+    height: 50vh;
+    width: 100%;
+    display: block;
+  }
+  .container__cadastro--formulario{
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    border: 1px sienna solid;
+  }
+  .cadastro--formulario{
+    border: 1px solid red;
+  }
+
+}
