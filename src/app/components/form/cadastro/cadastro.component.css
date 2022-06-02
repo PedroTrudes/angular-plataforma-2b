@@ -168,10 +168,17 @@ margin-bottom: 45px;
     position: absolute;
     top: 45%;
     width: 100%;
-    border: 1px sienna solid;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 0px;
+    height: 60vh;
+    flex-wrap: wrap;
   }
-  .cadastro--formulario{
-    border: 1px solid red;
+  .cadastro--logo{
+    margin-bottom: 0px;
+  }
+
+  .container__voltar--login{
+    margin-top: 15px;
   }
 
 }
